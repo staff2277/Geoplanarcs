@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="absolute  top-0 flex justify-between items-center w-full border-2 px-[3rem] py-[15px]">
+    <nav className="absolute  top-0 flex justify-between items-center w-full px-[3rem] py-[15px]">
       <div>
         <img className="w-[200px]" src="/logo4.svg" alt="logo" />
       </div>
