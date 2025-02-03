@@ -1,3 +1,5 @@
+import OurServices from "../components/OurServices";
+
 const Home = () => {
   return (
     <div className="h-[100vh]">
@@ -11,10 +13,13 @@ const Home = () => {
       >
         <div className="text-white font-semibold">
           <h1 className="text-[4.5rem]">Welcome to Geoplanarcs</h1>
-          <p className="text-[2rem] text-green-500">
+          <p className="text-[2rem] text-[#2db32d]">
             Your Reliable Partner in Architecture and Real Estate Development
           </p>
         </div>
+      </div>
+      <div>
+        <OurServices />
       </div>
     </div>
   );
