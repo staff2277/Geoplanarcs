@@ -1,38 +1,21 @@
 const Home = () => {
   return (
-    <div>
-      Home Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae veniam
-      enim, expedita illo voluptatibus, fugit et debitis doloremque vitae, natus
-      placeat error tempore nobis aliquam! Ducimus a veniam sapiente mollitia.
-      Accusantium, eius quas est soluta harum odit impedit ipsa amet placeat
-      asperiores molestiae magni sunt maxime cumque animi provident rerum
-      exercitationem iste? Nisi praesentium mollitia alias molestiae, ullam sunt
-      tempore. Ea nisi quis sed suscipit explicabo praesentium tempora id
-      placeat possimus ad, quaerat repudiandae eum quasi inventore voluptates
-      quibusdam quae architecto dolores cumque, sapiente alias voluptatum
-      corporis distinctio reprehenderit! Expedita? Vitae culpa ullam assumenda.
-      Iste debitis quos est accusamus distinctio molestias natus fuga atque
-      nihil provident. Ea, temporibus asperiores. Provident non odit quaerat
-      saepe commodi ipsam animi nostrum, deleniti tenetur? Laborum consequuntur
-      corporis rerum hic numquam et sequi praesentium, commodi ratione sit
-      mollitia voluptatem maxime repellat est, asperiores, magnam maiores ipsam
-      iste illum quod facilis vero! Veniam officiis aut laboriosam. Explicabo
-      eligendi, aspernatur natus quos in ipsum laborum, nemo, eaque quidem
-      molestias ea eum eius dolore laudantium deserunt aliquid nisi fugit esse
-      officiis beatae id excepturi ducimus. Architecto, dolor at! Quaerat
-      provident eligendi tempora at! Repudiandae suscipit velit quod repellendus
-      veniam sapiente porro sequi corrupti molestias. Voluptatibus, esse alias,
-      consectetur debitis odio officia laborum aperiam repudiandae, tempore
-      nesciunt dolores commodi! Maiores enim temporibus explicabo perspiciatis
-      repudiandae consectetur quo ratione nesciunt quisquam corporis. Quo
-      voluptatum nam, distinctio et iste dolorum ducimus veniam sapiente velit
-      voluptates harum soluta odit recusandae minima maxime? Provident
-      consectetur alias cum ullam ducimus velit dolorum! Minus sint laudantium
-      dolorem non, eos autem laboriosam nihil quibusdam dolorum asperiores at
-      facere animi corrupti quod iste eius rerum suscipit quia? Tempora
-      aspernatur, cupiditate quaerat amet sequi autem fugiat, beatae ea labore
-      ducimus praesentium illum natus a voluptate quis qui, nihil consectetur?
-      Ullam ipsa nam enim? Dolore veritatis quaerat inventore velit.
+    <div className="h-[100vh]">
+      <div
+        style={{
+          backgroundImage:
+            "linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/bg7.jpg)",
+          backgroundRepeat: "no-repeat",
+        }}
+        className="h-full flex items-center pl-[10%]"
+      >
+        <div className="text-white font-semibold">
+          <h1 className="text-[4.5rem]">Welcome to Geoplanarcs</h1>
+          <p className="text-[2rem] text-green-500">
+            Your Reliable Partner in Architecture and Real Estate Development
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="bg-black">
+    <nav className="absolute  top-0 flex justify-between items-center w-full border-2 px-[3rem] py-[15px]">
       <div>
-        <img src="/logo.svg" alt="logo" />
+        <img className="w-[200px]" src="/logo4.svg" alt="logo" />
       </div>
-      <ul>
+      <ul className="flex gap-5 text-white">
         <li>
           <Link to="/">Home</Link>
         </li>
