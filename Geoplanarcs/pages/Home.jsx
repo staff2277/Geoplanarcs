@@ -9,16 +9,18 @@ const Home = () => {
             "linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/bg7.jpg)",
           backgroundRepeat: "no-repeat",
         }}
-        className="h-full flex items-center pl-[10%]"
+        className="h-full flex items-center lg:pl-[10%] sm:pl-[5%] max-sm:pl-[2%] "
       >
         <div className="text-white font-semibold">
-          <h1 className="text-[4.5rem]">Welcome to Geoplanarcs</h1>
-          <p className="text-[2rem] text-[#2db32d]">
+          <h1 className="xl:text-[4.5rem] lg:text-[4rem] sm:text-[3rem] max-sm:text-[2.1rem]">
+            Welcome to Geoplanarcs
+          </h1>
+          <p className=" xl:text-[2rem] lg:text-[1.8rem] sm:text-[1.4rem] max-sm:text-[1rem] text-[#2db32d]">
             Your Reliable Partner in Architecture and Real Estate Development
           </p>
         </div>
       </div>
-      <div>
+      <div className="max-md:px-[5%] md:px-[1%] lg:px-[5%] ">
         <OurServices />
       </div>
     </div>
