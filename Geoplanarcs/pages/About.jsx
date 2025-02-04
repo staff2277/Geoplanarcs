@@ -1,3 +1,4 @@
+import Staff from "../components/Staff";
 const About = () => {
   return (
     <div>
@@ -13,7 +14,7 @@ const About = () => {
           About Us
         </h1>
       </div>
-      <div className="flex border-2 border-amber-400 py-[5rem] max-md:flex-col items-center mb-[5rem] justify-center lg:px-[10%] max-md:px-[5%]  gap-10">
+      <div className="flex border-2 border-amber-400 py-[5rem] max-md:flex-col-reverse items-center mb-[5rem] justify-center lg:px-[10%] max-md:px-[5%]  gap-10">
         <div className="flex relative border-2 border-red-500">
           <img
             className="w-[50%]   rounded-tr-[40%] rounded-bl-[40%] "
@@ -39,6 +40,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <Staff />
     </div>
   );
 };
