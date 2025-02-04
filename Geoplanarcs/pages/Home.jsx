@@ -1,6 +1,7 @@
 import OurServices from "../components/OurServices";
 import Leading from "../components/Leading";
 import HomeGrid from "../components/HomeGrid.jsx";
+import Footer from "../components/Footer.jsx";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       </div>
       <Leading />
       <HomeGrid />
+      <Footer />
     </div>
   );
 };

@@ -1,15 +1,15 @@
 const HomeGrid = () => {
   return (
     <div className="flex items-center max-md:flex-col-reverse my-[5rem] justify-center lg:px-[10%] max-md:px-[5%] py-[2rem] gap-10">
-      <div className="relative border-2 border-amber-500">
-        <img className="w-[80%] border-2 " src="/plan1.png" alt="plan image" />
+      <div className="relative">
+        <img className="w-[80%] " src="/plan1.png" alt="plan image" />
         <img
-          className="w-1/2 border-2  absolute top-0 left-1/2"
+          className="w-1/2  absolute top-0 left-1/2"
           src="/plan6.png"
           alt="plan image"
         />
         <img
-          className="w-1/2 border-2 border-red-600 absolute bottom-[0] left-1/2"
+          className="w-1/2 border-red-600 absolute bottom-[0] left-1/2"
           src="/plan3.png"
           alt="plan image"
         />
