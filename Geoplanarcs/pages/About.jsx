@@ -13,7 +13,11 @@ const About = () => {
           About Us
         </h1>
       </div>
-      <div></div>
+      <div>
+        <div>
+          <img src="/" alt="" />
+        </div>
+      </div>
     </div>
   );
 };
