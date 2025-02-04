@@ -1,4 +1,6 @@
 import OurServices from "../components/OurServices";
+import Leading from "../components/Leading";
+import HomeGrid from "../components/HomeGrid.jsx";
 
 const Home = () => {
   return (
@@ -23,6 +25,8 @@ const Home = () => {
       <div className="max-md:px-[5%] md:px-[1%] lg:px-[5%] ">
         <OurServices />
       </div>
+      <Leading />
+      <HomeGrid />
     </div>
   );
 };
