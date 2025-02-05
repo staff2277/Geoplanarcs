@@ -29,6 +29,7 @@ const Home = () => {
       <Leading />
       <HomeGrid />
       <Footer />
+      <Footer />
     </div>
   );
 };
