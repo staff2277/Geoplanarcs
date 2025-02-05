@@ -1,6 +1,6 @@
 const Strenght = () => {
   return (
-    <div className="border-2 lg:px-[10%] max-lg:px-[5%] py-[3rem] gap-10">
+    <div className="lg:px-[10%] max-lg:px-[5%] py-[3rem] gap-10">
       <h3 className="mb-[3rem] text-green-500 xl:text-[2.8rem] lg:text-[2.4rem] sm:text-[2rem] max-sm:text-[1.5rem] font-semibold">
         General Strengths and Scope of Works
       </h3>
