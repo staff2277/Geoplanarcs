@@ -1,4 +1,5 @@
 import Staff from "../components/Staff";
+import Footer from "../components/Footer";
 const About = () => {
   return (
     <div>
@@ -14,8 +15,8 @@ const About = () => {
           About Us
         </h1>
       </div>
-      <div className="flex border-2 border-amber-400 py-[5rem] max-md:flex-col-reverse items-center mb-[5rem] justify-center lg:px-[10%] max-md:px-[5%]  gap-10">
-        <div className="flex relative border-2 border-red-500">
+      <div className="flex  py-[5rem] max-md:flex-col-reverse items-center mb-[5rem] justify-center lg:px-[10%] max-md:px-[5%]  gap-10">
+        <div className="flex relative ">
           <img
             className="w-[50%]   rounded-tr-[40%] rounded-bl-[40%] "
             src="/vs4.jpg"
@@ -27,7 +28,7 @@ const About = () => {
             alt=""
           />
         </div>
-        <div className="border-2">
+        <div className="">
           <h3 className="text-green-500 xl:text-[2.8rem] lg:text-[2.4rem] sm:text-[2rem] max-sm:text-[1.5rem] font-semibold">
             Vision
           </h3>
@@ -41,6 +42,7 @@ const About = () => {
         </div>
       </div>
       <Staff />
+      <Footer />
     </div>
   );
 };

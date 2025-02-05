@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className=" grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] max-md:flex-col items-center mb-[5rem] justify-center lg:px-[10%] max-lg:px-[5%] py-[5rem] gap-10 bg-green-100">
+    <div className=" grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] max-md:flex-col items-center  justify-center lg:px-[10%] max-lg:px-[5%] py-[5rem] gap-10 bg-green-100">
       <div className=" h-full">
         <h3 className="font-bold text-green-500 mb-4">GET IN TOUCH</h3>
         <p>
