@@ -1,13 +1,22 @@
 import Footer from "../components/Footer";
 const Services = () => {
   return (
-    <div className="mt-[12vh] border-2">
-      <div className="lg:px-[15%] sm:pl-[5%] max-sm:pl-[2%]">
-        <div>
-          <h1 className="text-green-500 py-[3rem] xl:text-[3.5rem] lg:text-[3rem] sm:text-[2rem] max-sm:text-[1.5rem] font-semibold">
-            Our Services
-          </h1>
-          <h1 className="text-green-500 xl:text-[2.5rem] sm:text-[2rem] max-sm:text-[1.5rem] font-semibold">
+    <div className="border-2">
+      <div
+        className="h-[50vh] flex items-center border-2 lg:pl-[15%] sm:pl-[5%] max-sm:pl-[2%]"
+        style={{
+          backgroundImage:
+            "linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/p2.jpg)",
+          backgroundPosition: "center",
+        }}
+      >
+        <h1 className="flex items-center text-white h-full py-[3rem] xl:text-[3.5rem] lg:text-[3rem] sm:text-[2rem] max-sm:text-[1.5rem] font-semibold">
+          Our Services
+        </h1>
+      </div>
+      <div className="lg:px-[15%] sm:px-[5%] max-sm:px-[2%]">
+        <div className="mt-[5rem]">
+          <h1 className="text-green-500 xl:text-[2.5rem]  sm:text-[2rem] max-sm:text-[1.5rem] font-semibold">
             Architectural Design & Drafting
           </h1>
           <p>

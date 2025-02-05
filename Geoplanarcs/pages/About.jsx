@@ -42,8 +42,8 @@ const About = () => {
           </p>
         </div>
       </div>
-      <Staff />
       <Strenght />
+      <Staff />
       <Footer />
     </div>
   );
