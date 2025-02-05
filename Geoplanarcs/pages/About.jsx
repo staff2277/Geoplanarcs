@@ -1,4 +1,5 @@
 import Staff from "../components/Staff";
+import Strenght from "../components/Strenght";
 import Footer from "../components/Footer";
 const About = () => {
   return (
@@ -42,6 +43,7 @@ const About = () => {
         </div>
       </div>
       <Staff />
+      <Strenght />
       <Footer />
     </div>
   );
