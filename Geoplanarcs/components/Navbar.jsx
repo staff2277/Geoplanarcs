@@ -17,7 +17,7 @@ const Navbar = () => {
       <ul
         className={clsx({
           "text-white": location.pathname == "/services",
-          "flex gap-5 text-white": true,
+          "flex gap-5 text-white max-md:hidden": true,
         })}
       >
         <li>
