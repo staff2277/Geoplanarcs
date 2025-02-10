@@ -3,11 +3,10 @@ const Services = () => {
   return (
     <div className="border-2">
       <div
-        className="h-[50vh] flex items-center border-2 lg:pl-[15%] sm:pl-[5%] max-sm:pl-[2%]"
+        className="h-[50vh] bg-cover bg-right-top flex items-center border-2 lg:pl-[15%] sm:pl-[5%] max-sm:pl-[2%]"
         style={{
           backgroundImage:
             "linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/p2.jpg)",
-          backgroundPosition: "center",
         }}
       >
         <h1 className="flex items-center text-white h-full py-[3rem] xl:text-[3.5rem] lg:text-[3rem] sm:text-[2rem] max-sm:text-[1.5rem] font-semibold">
