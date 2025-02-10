@@ -77,7 +77,7 @@ const Services = () => {
               </p>
             </div>
             <div>
-              <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+              <h1 className="text-green-500 italic text-[1rem] font-bold">
                 Sustainable Landscaping & Eco-Friendly Solutions
               </h1>
               <p>
