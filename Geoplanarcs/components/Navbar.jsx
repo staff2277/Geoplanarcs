@@ -5,7 +5,7 @@ import HamburgerMenu from "./Hamburger";
 const Navbar = () => {
   const location = useLocation();
   return (
-    <nav className="absolute z-50 top-0 flex justify-between items-center w-full px-[3rem] py-[15px]">
+    <nav className="absolute z-50 top-0 flex justify-between items-center w-full sm:px-[3rem] max-sm:px-[1rem] py-[15px]">
       <div>
         <Link to="/">
           <img

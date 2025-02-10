@@ -37,7 +37,7 @@ const HamburgerMenu = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="absolute right-[0px] *:py-[10px] *:px-[15px] top-12 w-[20vh] border-2 bg-white shadow-lg rounded-lg  space-y-3"
+            className="absolute right-[0px] *:py-[10px] *:px-[15px] top-12 w-[20vh]  bg-white shadow-lg rounded-lg  space-y-3"
           >
             <Link to="/" className="block text-lg hover:text-green-500">
               Home
