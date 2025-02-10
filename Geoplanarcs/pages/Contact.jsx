@@ -17,8 +17,11 @@ const Contact = () => {
           </h1>
         </div>
       </div>
-      <div className="bg-blue-200">
-        <form action="https://formsubmit.co/wnfynn@gmailcom" method="POST">
+      <div className="bg-blue-200 border-2">
+        <form
+          action="https://formsubmit.co/23c9d27867bfd351cd78f0d2bcdca09f"
+          method="POST"
+        >
           <input type="text" name="name" required></input>
           <input type="email" name="email" required></input>
           <button type="submit">Send</button>
