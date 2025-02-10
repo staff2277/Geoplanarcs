@@ -29,7 +29,7 @@ const Services = () => {
           </p>
         </div>
         <div>
-          <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+          <h1 className="text-green-500 italic text-[1rem] font-bold">
             2D & 3D Architectural Drawings
           </h1>
           <p>
@@ -40,7 +40,7 @@ const Services = () => {
           </p>
         </div>
         <div>
-          <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+          <h1 className="text-green-500 italic text-[1rem] font-bold">
             Construction Documentation & Permit Approvals
           </h1>
           <p>
@@ -65,7 +65,7 @@ const Services = () => {
               </p>
             </div>
             <div>
-              <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+              <h1 className="text-green-500 italic text-[1rem] font-bold">
                 Garden & Hardscape Design
               </h1>
               <p>
@@ -116,7 +116,7 @@ const Services = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+            <h1 className="text-green-500 italic text-[1rem] font-bold">
               Land Acquisition & Feasibility Studies
             </h1>
             <span>
@@ -131,7 +131,7 @@ const Services = () => {
             </span>
           </div>
           <div>
-            <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+            <h1 className="text-green-500 italic text-[1rem] font-bold">
               Real Estate Investment Consultation
             </h1>
             <p>
@@ -143,7 +143,7 @@ const Services = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+            <h1 className="text-green-500 italic text-[1rem] font-bold">
               Legal & Regulatory Compliance
             </h1>
             <p>
@@ -167,7 +167,7 @@ const Services = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+            <h1 className="text-green-500 italic text-[1rem] font-bold">
               Topographic & Boundary Surveys
             </h1>
             <p>
@@ -178,7 +178,7 @@ const Services = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+            <h1 className="text-green-500 italic text-[1rem] font-bold">
               Construction & Engineering Surveys
             </h1>
             <p>
@@ -188,7 +188,7 @@ const Services = () => {
             </p>
           </div>
           <div>
-            <h1 className="text-green-500 italic text-[1.5rem] font-bold">
+            <h1 className="text-green-500 italic text-[1rem] font-bold">
               GIS & Remote Sensing Services
             </h1>
             <p>
