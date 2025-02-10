@@ -4,7 +4,7 @@ import clsx from "clsx";
 const Navbar = () => {
   const location = useLocation();
   return (
-    <nav className="absolute  top-0 flex justify-between items-center w-full px-[3rem] py-[15px]">
+    <nav className="absolute z-50 top-0 flex justify-between items-center w-full px-[3rem] py-[15px]">
       <div>
         <Link to="/">
           <img
