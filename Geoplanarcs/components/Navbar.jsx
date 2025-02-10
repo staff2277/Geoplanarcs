@@ -39,7 +39,9 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
-      <HamburgerMenu />
+      <span className="md:hidden">
+        <HamburgerMenu />
+      </span>
     </nav>
   );
 };

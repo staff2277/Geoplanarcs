@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react"; // For icons
+import { Link } from "react-router-dom";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +23,9 @@ const HamburgerMenu = () => {
       {/* Hamburger Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="z-50 p-2 rounded-md focus:outline-none"
+        className="z-50 bg-white p-2 rounded-md focus:outline-none"
       >
-        {isOpen ? <X size={28} /> : <Menu size={28} />}
+        {isOpen ? <X size={30} /> : <Menu size={30} />}
       </button>
 
       {/* Animated Menu */}
@@ -36,20 +37,20 @@ const HamburgerMenu = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -50 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="absolute left-0 top-12 w-52 bg-white shadow-lg rounded-lg p-4 space-y-3"
+            className="absolute right-[0px] *:py-[10px] *:px-[15px] top-12 w-[20vh] border-2 bg-white shadow-lg rounded-lg  space-y-3"
           >
-            <a href="/" className="block text-lg hover:text-blue-600">
+            <Link to="/" className="block text-lg hover:text-green-500">
               Home
-            </a>
-            <a href="/about" className="block text-lg hover:text-blue-600">
+            </Link>
+            <Link to="/about" className="block text-lg hover:text-green-500">
               About
-            </a>
-            <a href="/services" className="block text-lg hover:text-blue-600">
+            </Link>
+            <Link to="/services" className="block text-lg hover:text-green-500">
               Services
-            </a>
-            <a href="/contact" className="block text-lg hover:text-blue-600">
+            </Link>
+            <Link to="/contact" className="block text-lg hover:text-green-500">
               Contact
-            </a>
+            </Link>
           </motion.div>
         )}
       </AnimatePresence>

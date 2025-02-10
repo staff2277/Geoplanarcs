@@ -5,14 +5,13 @@ import Footer from "../components/Footer.jsx";
 
 const Home = () => {
   return (
-    <div className="h-[100vh]">
+    <div className="h-[100vh] ">
       <div
         style={{
           backgroundImage:
             "linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/bg7.jpg)",
-          backgroundRepeat: "no-repeat",
         }}
-        className="h-full flex items-center lg:pl-[10%] sm:pl-[5%] max-sm:pl-[2%] "
+        className="h-full max-md:bg-center bg-cover  md:bg-no-repeat flex items-center lg:pl-[10%] sm:pl-[5%] max-sm:pl-[2%] "
       >
         <div className="text-white font-semibold">
           <h1 className="xl:text-[4.5rem] lg:text-[4rem] sm:text-[3rem] max-sm:text-[2.1rem]">
