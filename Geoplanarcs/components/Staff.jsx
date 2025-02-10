@@ -7,7 +7,7 @@ const Staff = () => {
         </div>
 
         {/* Scrollable Container */}
-        <div className="flex space-x-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory px-4 justify-center">
+        <div className="flex overflow-x-auto scrollbar-hide snap-x snap-mandatory 2xl:justify-center  gap-10">
           {[
             { role: "CEO", name: "Sumaila Osumanu", image: "/prof.jpg" },
             {
