@@ -39,9 +39,6 @@ const HamburgerMenu = () => {
             transition={{ duration: 0.3, ease: "easeInOut" }}
             className="absolute right-[0px] *:py-[10px] *:px-[15px] top-12 w-[20vh]  bg-white shadow-lg rounded-lg  space-y-3"
           >
-            <Link to="/" className="block text-lg hover:text-green-500">
-              Home
-            </Link>
             <Link to="/about" className="block text-lg hover:text-green-500">
               About
             </Link>
