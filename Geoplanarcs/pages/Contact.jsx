@@ -1,4 +1,16 @@
+import { useState } from "react";
+import Footer from "../components/Footer";
+
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
   return (
     <div>
       <div
@@ -17,15 +29,59 @@ const Contact = () => {
           </h1>
         </div>
       </div>
-      <div className="bg-blue-200 border-2">
+      <div className="max-w-lg mx-auto p-6 bg-white shadow-lg mt-[3rem] rounded-lg">
+        <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <form
           action="https://formsubmit.co/23c9d27867bfd351cd78f0d2bcdca09f"
           method="POST"
+          className="flex flex-col gap-4"
         >
-          <input type="text" name="name" required></input>
-          <input type="email" name="email" required></input>
-          <button type="submit">Send</button>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+            className="border p-2 rounded-md"
+          />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            className="border p-2 rounded-md"
+          />
+
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+            className="border p-2 rounded-md h-32"
+          ></textarea>
+
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://localhost:5173/thank-you"
+          />
+
+          <button
+            type="submit"
+            className="bg-green-500 text-white py-2 px-4 rounded-md hover:bg-blue-700"
+          >
+            Send Message
+          </button>
         </form>
+      </div>
+      <div className="mt-[5rem]">
+        <Footer />
       </div>
     </div>
   );

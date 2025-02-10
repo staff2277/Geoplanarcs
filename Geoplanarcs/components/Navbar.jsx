@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import clsx from "clsx";
+import HamburgerMenu from "./Hamburger";
 const Navbar = () => {
   const location = useLocation();
   return (
@@ -9,18 +10,23 @@ const Navbar = () => {
         <Link to="/">
           <img
             className="w-[200px]"
-            src={location.pathname == "/services" ? "/logo4.svg" : "/logo4.svg"}
+            src={location.pathname == "/thank-you" ? "/logo.svg" : "/logo4.svg"}
             alt="logo"
           />
         </Link>
       </div>
       <ul
         className={clsx({
-          "text-white": location.pathname == "/services",
-          "flex gap-5 text-white max-md:hidden": true,
+          "flex gap-5 max-md:hidden": true,
+          "text-white": location.pathname !== "/thank-you",
+          "text-black": location.pathname == "/thank-you",
         })}
       >
-        <li>
+        <li
+          className={clsx({
+            hidden: location.pathname == "/",
+          })}
+        >
           <Link to="/">Home</Link>
         </li>
         <li>
@@ -33,6 +39,7 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
+      <HamburgerMenu />
     </nav>
   );
 };
